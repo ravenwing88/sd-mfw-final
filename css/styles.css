@@ -1,0 +1,206 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffecd7;
+    background-color: black;
+    /* border: 1px solid red; */
+}
+
+.row {
+    /* border: 1px solid blue; */
+    padding: 10px 0;
+}
+
+body {
+    background-color: black;
+}
+
+ul {
+    display: inline;
+    margin: auto;
+}
+
+li:hover, li:not(:hover) {
+    border: 0;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffecd7;
+}
+
+li a:hover {
+    color: #FFFFFF;
+}
+
+.navlink {
+    align-items: center;
+}
+
+.soc-med {
+    justify-content: flex-end;
+}
+
+i:hover {
+    color: #FFFFFF;
+}
+
+.current-page {
+    color: #AF2806;
+}
+
+.current-page:hover {
+    color: #DD0000;
+}
+
+.jumbotron {
+    display: flex;
+    background-image: url("../img/wookiees.jpg");
+    background-size: cover;
+    height: 700px;
+    align-items: center;
+}
+
+.jumbotron img {
+    background-color: transparent;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.news-stories {
+    width: 33%;
+    background-color: black;
+    margin: 1px;
+    padding: 50px;
+}
+
+.news-stories a {
+    font-weight: bold;
+}
+
+.news-stories h5, .news-stories a {
+    color: #AF2806;
+}
+
+.news-stories a:hover {
+    color: #DD0000;
+}
+
+/* .news-stories p, .news-stories h3 {
+    color: #ffecd7;
+} */
+
+.parallax {
+    /* darkened image */
+    background: linear-gradient(#00000099, #00000099), url("../img/jam.jpg");
+    height: 800px;
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax h3, .parallax h5 {
+    text-align: center;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.parallax .container {
+    background-color: transparent;
+    padding: 50px 0;
+}
+
+.table {
+    width: min-content;
+    margin: 50px;
+    /* background-color: ; */
+}
+
+table span {
+    display: block;
+    text-align: center;
+}
+
+.day {
+    font-size: 24pt;
+}
+
+td a {
+    text-decoration: none;
+    color: #ffecd7;
+}
+
+td a:hover {
+    color: #FFFFFF;
+}
+
+footer {
+    padding: 80px 0;
+}
+
+footer h1 {
+    padding: 30px;
+}
+
+footer h1, footer h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* videos page */
+.vidplayer {
+    text-align: center;
+}
+
+.vidplayer h1 {
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+/* suggestion/contact page */
+form {
+    padding-top: 100px;
+    width: 40vw;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+form h1, form h3 {
+    text-align: center;
+}
+
+form h3:last-of-type {
+    padding-bottom: 40px;
+}
+
+/* 404 page */
+
+.err-msg {
+    padding: 20% 0;
+    text-align: center;
+}
+
+.err-msg h1 {
+    font-size: 48pt;
+    font-weight: bold;
+}
+
+.err-msg a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24pt;
+    color: #AF2806;
+}
+
+.err-msg a:hover {
+    color: #DD0000;
+}
